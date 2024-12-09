@@ -1,21 +1,23 @@
 import { NavLink } from 'react-router-dom';
 import classes from './MainNavigation.module.css';
+import logo from '../assets/DGL_WHITE.png';
 
-import { useSelector, useDispatch } from 'react-redux';
+// import { useSelector, useDispatch } from 'react-redux';
 
 const MainNavigation = () => {
-    const dispatch = useDispatch();
+    // const dispatch = useDispatch();
 
-    const isLoggedIn = useSelector((state) => state.login.isLoggedIn);
+    // const isLoggedIn = useSelector((state) => state.login.isLoggedIn);
     
-    const signInHandler = () => {
-        dispatch(loginActions.login());
-    };
+    // const signInHandler = () => {
+    //     dispatch(loginActions.login());
+    // };
 
-    const signUpHandler = () => {};
+    // const signUpHandler = () => {};
 
     return (
         <header className={classes.header}>
+            <img src={logo} alt='logo' />
             <nav>
                 <ul className={classes.list}>
                     <li>
@@ -29,7 +31,6 @@ const MainNavigation = () => {
                     </li>
                 </ul>
             </nav>
-            <img src={logo} alt='logo' />
         </header>
     );
 };
