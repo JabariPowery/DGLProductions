@@ -1,30 +1,40 @@
 import Carousel from "react-multi-carousel";
-import 'react-multi-carousel/lib/styles.css';
+import "react-multi-carousel/lib/styles.css";
+import classes from "./Home.module.css";
+import video from "../assets/Goodguyswashshack Commercial.webm";
 
 const responsive = {
-    desktop: {
-        breakpoint: { max: 3000, min: 1024 },
-        items: 5,
-        slidesToSlide: 1
-    },
-    tablet: {
-        breakpoint: { max: 1024, min: 464 },
-        items: 3,
-        slidesToSlide: 3
-    },
-    mobile: {
-        breakpoint: { max: 464, min: 0 },
-        items: 1,
-        slidesToSlide: 1
-    }
+  desktop: {
+    breakpoint: { max: 3000, min: 1024 },
+    items: 5,
+    slidesToSlide: 1,
+  },
+  tablet: {
+    breakpoint: { max: 1024, min: 464 },
+    items: 3,
+    slidesToSlide: 3,
+  },
+  mobile: {
+    breakpoint: { max: 464, min: 0 },
+    items: 1,
+    slidesToSlide: 1,
+  },
 };
 
 const Home = () => {
-    return(
-        <>
-            <main>
-                <div>STEPHEN WATSON</div>
-                {/* <Carousel
+  return (
+    <>
+      <main>
+        <div className={classes.divSection1}>
+          <div className={classes.dots} />
+          <video width="auto" height="auto" autoPlay loop muted>
+            <source src={video} type="video/webm" />
+          </video>
+        </div>
+        <div className={classes.divSection2}>
+          <div className={classes.cardContainer}></div>
+        </div>
+        {/* <Carousel
                     swipeable={false}
                     draggable={true}
                     showDots={true}
@@ -49,9 +59,9 @@ const Home = () => {
                     <div>Item 4</div>
                     <div>Item 5</div>
                 </Carousel> */}
-            </main>
-        </>
-    );
+      </main>
+    </>
+  );
 };
 
 export default Home;
