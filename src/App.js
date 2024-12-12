@@ -10,6 +10,7 @@ import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
 
 const router = createHashRouter([
+  //Change to createBrowserRouter if hosting on GitHub pages
   {
     path: "/",
     element: <RootLayout />,
