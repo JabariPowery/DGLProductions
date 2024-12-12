@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/DGLProductions/static/css/main.ff943691.css",
+    "main.js": "/DGLProductions/static/js/main.6e12763a.js",
+    "static/js/453.e7c292b7.chunk.js": "/DGLProductions/static/js/453.e7c292b7.chunk.js",
+    "static/media/Goodguyswashshack Commercial.webm": "/DGLProductions/static/media/Goodguyswashshack Commercial.d1d65b1412d4a213baa1.webm",
+    "static/media/DGL_WHITE.png": "/DGLProductions/static/media/DGL_WHITE.40013a0ed51b79e57f21.png",
+    "static/media/revicons.eot": "/DGLProductions/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/DGLProductions/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/DGLProductions/static/media/revicons.e8746a624ed098489406.woff",
+    "index.html": "/DGLProductions/index.html",
+    "main.ff943691.css.map": "/DGLProductions/static/css/main.ff943691.css.map",
+    "main.6e12763a.js.map": "/DGLProductions/static/js/main.6e12763a.js.map",
+    "453.e7c292b7.chunk.js.map": "/DGLProductions/static/js/453.e7c292b7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ff943691.css",
+    "static/js/main.6e12763a.js"
+  ]
+}
