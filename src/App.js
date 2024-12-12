@@ -1,19 +1,24 @@
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import {
+  createBrowserRouter,
+  RouterProvider,
+  createHashRouter,
+} from "react-router-dom";
 import RootLayout from "./components/RootLayout";
 
 import Home from "./pages/Home";
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
 
-const router = createBrowserRouter([
-  { path: '/',
+const router = createHashRouter([
+  {
+    path: "/",
     element: <RootLayout />,
     children: [
-      { index: true, element: <Home />},
-      { path: 'projects', element: <Projects />},
-      { path: 'contact', element: <Contact />}
-    ]
-  }
+      { index: true, element: <Home /> },
+      { path: "projects", element: <Projects /> },
+      { path: "contact", element: <Contact /> },
+    ],
+  },
 ]);
 
 function App() {
