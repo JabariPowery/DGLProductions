@@ -27,6 +27,7 @@ const Home = () => {
       <main>
         <div className={classes.divSection1}>
           <div className={classes.dots} />
+          <h1 className={classes.latestWorkHeader}>Latest Work</h1>
           <video width="auto" height="auto" autoPlay loop muted>
             <source src={video} type="video/webm" />
           </video>
