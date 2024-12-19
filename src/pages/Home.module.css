@@ -1,5 +1,5 @@
 .divSection1 {
-  height: 100vh;
+  height: auto;
   width: 100vw;
   z-index: 1;
   position: relative;
@@ -37,7 +37,7 @@ video {
     position: absolute;
     height: 100%;
     width: 100%;
-    top: 50%;
+    top: 40%;
     margin: 0;
 }
 
